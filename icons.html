@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>font awsomer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
+
+    <style>
+        .fa-house {
+            font-size: 100px;
+            color: aqua;
+            background-color: black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <H1>Font awsome</H1>
+
+    <p>her kan du gå inn for å finne kule icons som kan brukes på nettsiden din</p>
+
+    <a href="https://fontawesome.com/search">fontawesom.com</a>
+
+    <i onclick="skiftfarge(this)" class="fa-solid fa-house fa-bounce"></i>
+    <i onclick="skiftfarge(this)" class="fa-regular fa-house fa-shake fa-bounce"></i>
+
+    <script>
+        function skiftfarge(element) {
+            console.log("skifter farge")
+            const tilfeldigFarge = "#" + Math.floor(Math.random() * 16777215)
+                .toString(16)
+                .padStart(6, "0");
+
+            element.style.color = tilfeldigFarge;
+        }
+    </script>
+
+
+
+</body>
+
+</html>
