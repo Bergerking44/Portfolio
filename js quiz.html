@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Quiz</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: pink;
+        padding: 20px 100px;
+      }
+      .grid {
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+      }
+      article {
+        padding: 20px;
+        max-width: 600px;
+        border-radius: 20px;
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      h1 {
+        padding: 20px;
+        background-color: rgb(244, 218, 184);
+        border-radius: 50px;
+        width: fit-content;
+        margin-bottom: 20px;
+      }
+      .boxes {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 50px;
+        border-top: 3px solid black;
+        padding-top: 10px;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JS Quiz!</h1>
+
+    <div class="grid">
+      <article>
+        <h2>1. Hva er hovedstaden i Australia?</h2>
+        <div class="boxes">
+          <div class="box">Sydney</div>
+          <div class="box">Canberra</div>
+          <div class="box">Melbourne</div>
+        </div>
+      </article>
+
+      <article>
+        <h2>2. Hvilken planet er nærmest solen?</h2>
+        <div class="boxes">
+          <div class="box">Venus</div>
+          <div class="box">Mars</div>
+          <div class="box">Merkur</div>
+        </div>
+      </article>
+      <article>
+        <h2>3. Hva er kvadratroten av 144?</h2>
+        <div class="boxes">
+          <div class="box">12</div>
+          <div class="box">14</div>
+          <div class="box">72</div>
+        </div>
+      </article>
+
+      <article>
+        <h2>4. Hvilket år ble Norge selvstendig fra Sverige?</h2>
+        <div class="boxes">
+          <div class="box">1814</div>
+          <div class="box">1905</div>
+          <div class="box">1945</div>
+        </div>
+      </article>
+    </div>
+    <script>
+      x = 2
+      console.log("Hei")
+    </script>
+  </body>
+</html>
