@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="no">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,16 +30,23 @@
             background-color: white;
             padding: 30px;
             border-radius: 15px;
+
         }
 
         h2 {
             color: #2c3e50;
             padding-top: 80px;
         }
-    
+
         p {
             font-size: 18px;
             color: #555;
+        }
+
+        .main {
+            padding-top: 70px;
+            display: flex;
+            flex-direction: row;
         }
 
         .knapp {
@@ -56,27 +64,46 @@
             background-color: #217dbb;
         }
 
+        .bilde {
+            width: 800px;
+        }
     </style>
 </head>
 
 <body>
 
+
+
+
     <header>
         <h1>Velkommen til min hjemmeside!</h1>
     </header>
 
-    <body>
+    <div class="main">
 
-        <h2>Dette er noen av nettsidene jeg har laget som jeg er stolt av:</h2>
+        <div class="lenker">
 
-        <a class="knapp" href="icons.html" target="_blank">
-            icons 
-        </a>
+            <h2>Dette er noen av nettsidene jeg har laget som jeg er stolt av:</h2>
 
-        <a class="knapp" href="quiz copy.html" target="_blank">
-            quiz 
-        </a>
-    </body>
+            <a class="knapp" href="icons.html" target="_blank">
+                icons
+            </a>
+
+            <a class="knapp" href="quiz copy.html" target="_blank">
+                quiz
+            </a>
+
+        </div>
+
+
+        <div class="bilde">
+            <img src="bilder/Image (25).jpg" alt="">
+        </div>
+
+
+
+    </div>
 
 </body>
+
 </html>
